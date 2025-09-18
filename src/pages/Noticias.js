@@ -3,7 +3,6 @@ import { noticias } from "../dados/dados";
 import ListaNoticias from "../components/news/ListaNoticias";
 
 function Noticias() {
-  // Ordena por data decrescente
   const listaOrdenada = [...noticias].sort((a,b)=> new Date(b.data) - new Date(a.data));
 
   return (

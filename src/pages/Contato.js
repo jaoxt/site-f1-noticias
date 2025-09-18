@@ -8,7 +8,6 @@ function Contato() {
 
   function enviar(e) {
     e.preventDefault();
-    // aqui você poderia integrar com backend ou serviço de e-mail
     console.log("Contato enviado:", { nome, email, mensagem });
     setEnviado(true);
     setNome(""); setEmail(""); setMensagem("");
