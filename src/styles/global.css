@@ -1,0 +1,69 @@
+/* Global - paleta preta/vermelho/branco, tipografia limpa */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root{
+  --bg: #0b0b0b;
+  --surface: #121212;
+  --accent: #e10600; /* vermelho F1 */
+  --text: #ffffff;
+  --muted: #bfbfbf;
+  --card: #1b1b1b;
+}
+
+*{box-sizing: border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  background: linear-gradient(180deg, var(--bg), #0f0f0f 60%);
+  color:var(--text);
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.4;
+}
+
+/* container */
+.app-container{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+}
+
+/* main */
+.main-content{
+  flex:1;
+  padding: 2rem;
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+/* utility */
+.container-grid{
+  display:grid;
+  gap:1rem;
+}
+.row{
+  display:flex;
+  gap:1rem;
+}
+
+/* Links */
+a{ color: inherit; text-decoration: none; }
+a:hover{ opacity:0.9; }
+
+/* Button */
+.btn{
+  background:var(--accent);
+  color:white;
+  padding:0.6rem 1rem;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btn:hover{ transform: translateY(-3px); box-shadow: 0 6px 18px rgba(225,16,0,0.18); }
+
+/* responsive */
+@media (max-width: 768px){
+  .main-content{ padding:1rem; }
+}

@@ -1,0 +1,17 @@
+.card{
+  display:flex;
+  gap:1rem;
+  align-items:center;
+  background:var(--card);
+  padding:0.8rem;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.03);
+}
+.card img{
+  width:120px;
+  height:80px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.info h4{ margin:0; font-size:1rem; }
+.equipe{ margin:0.2rem 0 0 0; color:var(--muted); font-size:0.95rem; }

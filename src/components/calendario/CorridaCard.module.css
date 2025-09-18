@@ -1,0 +1,20 @@
+.card{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  border-radius:10px;
+  padding:0.8rem 1rem;
+  border: 1px solid rgba(255,255,255,0.03);
+}
+.info h4{ margin:0 0 0.2rem 0; }
+.local{ margin:0; color:var(--muted); }
+.data{ margin:0.2rem 0 0 0; font-size:0.95rem; color:var(--muted); }
+.flag{
+  background:rgba(225,16,0,0.12);
+  padding:0.6rem 0.9rem;
+  border-radius:8px;
+  min-width:70px;
+  text-align:center;
+}
+.flagText{ font-weight:700; color:var(--text); }
