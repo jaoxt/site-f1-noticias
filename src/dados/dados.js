@@ -33,7 +33,7 @@ export const corridas = [
 ];
 
 export const pilotos = [
-  { id:1, nome: "Max Verstappen", equipe: "Red Bull Racing", numero: 1, foto: "https://via.placeholder.com/300x200?text=Verstappen" },
-  { id:2, nome: "Lewis Hamilton", equipe: "Mercedes", numero: 44, foto: "https://via.placeholder.com/300x200?text=Hamilton" },
-  { id:3, nome: "Charles Leclerc", equipe: "Ferrari", numero: 16, foto: "https://via.placeholder.com/300x200?text=Leclerc" }
+  { id:1, nome: "Max Verstappen", equipe: "Red Bull Racing", numero: 1, foto: "https://upload.wikimedia.org/wikipedia/commons/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg" },
+  { id:2, nome: "Lewis Hamilton", equipe: "Mercedes", numero: 44, foto: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Lewis_Hamilton_2022_S%C3%A3o_Paulo_Grand_Prix_%2852498120773%29_%28cropped%29.jpg" },
+  { id:3, nome: "Charles Leclerc", equipe: "Ferrari", numero: 16, foto: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQOM_BCt-tzLeNnPcjESM24p3UCdSKgqbw9IkbWkhuyjmPOKijDrRb7i15xJhchiORXLfjWw8w5vCGQofg" }
 ];
